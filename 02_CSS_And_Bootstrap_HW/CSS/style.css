@@ -5,3 +5,8 @@ body {
     background-size: cover;
     -o-background-size: cover;
   }
+#imageset {
+  max-width: 350px; 
+  height: 450px; 
+  object-fit: fill;
+}

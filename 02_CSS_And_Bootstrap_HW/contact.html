@@ -7,18 +7,21 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS Stylesheet-->
     <link rel="stylesheet" href="CSS/style.css">
+    <!-- Tab Heading -->
     <title>Contact</title>
   </head>
   <body>
-
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark justify-content-center align-items-start">
       <button class="navbar-toggler mr-auto" type="button" data-toggle="collapse" data-target="#navbar">
           <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- notice position-absolute on the brand which allows it to center-->
+    <!-- Nav Branding -->
       <span class="navbar-brand position-absolute">Dillon Voravongsy</span>
       <div class="navbar-collapse collapse" id="navbar">
+    <!-- Nav Links -->
           <ul class="navbar-nav justify-content-center">
               <li class="nav-item mr-lg-5 mr-md-3">
                   <a class="nav-link" href="index.html">About</a>
@@ -33,9 +36,41 @@
       </div>
   </nav>
   
-  <div class="container">
-    
-  </div>
+  <!-- Main Content -->
+  <div class="container">    
+  <!-- Card Container -->  
+      <div class="card m-2 m-sm-3 m-lg-6 bg-dark text-white border border-white" style="max-width: 200rem;">
+        <div class="card-body">
+  <!-- Card Heading -->        
+          <h1 class="card-title text-center">Contact </h1>
+          <hr class="bg-white">
+  <!-- Name Input -->
+          <p>Name</p>
+          <form>
+            <div class="row">
+              <input class="form-control input col-6 ml-3" placeholder="Full Name" type="text"> 
+            </div>
+          </form>
+  <!-- Email Input -->
+          <p class="mt-4">Email</p>
+          <form>
+            <div class="row">
+              <input class="form-control input col-6 ml-3" placeholder="Email Address" type="text"> 
+            </div>
+          </form>
+  <!-- Message Textarea -->
+          <p class="mt-4">Message</p>
+          <form>
+            <textarea class="col-12" rows="5" placeholder="Message"></textarea>
+          </form>
+<!-- Submit Button-->
+          <button type="button" class="btn btn-light mt-3">SUBMIT</button>
+  
+          </div>  
+        </div>
+      </div>
+      
+  
  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
