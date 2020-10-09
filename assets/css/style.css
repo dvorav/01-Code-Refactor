@@ -6,19 +6,19 @@
 body {
     background-color: #d9dcd6;
 }
-/*       Header       */
-header {
+/*       Navbar Content       */
+nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-header h1 {
+nav h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-header div {
+nav div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -46,12 +46,12 @@ a {
 }
 /*      Content   */
 
-content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-content div {
+main div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -59,10 +59,10 @@ content div {
     background-color: #0072bb;
     color: #ffffff;
 }
-content div img {
+main div img {
     max-height: 200px;
 }
-content div h2 {
+main div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -75,7 +75,7 @@ content div h2 {
     margin-left: 25px;
 }
 /*      Benefits     */
-sidebar
+aside
  {
     margin-right: 20px;
     padding: 20px;
@@ -87,15 +87,15 @@ sidebar
     background-color: #2589bd;
     text-align: center;
 }
-sidebar div {
+aside div {
     margin-bottom: 32px;
     color: #ffffff;
 }
-sidebar h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-sidebar img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -109,9 +109,48 @@ footer {
 }
 footer h2 {
     font-size: 20px;
+}   
+
+
+
+
+
+  nav {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
-@media only screen and (max-width: 1050px) {
-    body {
-      background-color: pink;
+
+#mainNavbar .navbar-brand {
+    color:#d9dcd6;
+    font-size: 48px;
+    font-weight: bold;
+    
     }
-  }
+    #mainNavbar .nav-link {
+        padding-top: 15px;
+        margin-right: 20px;
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: white;
+        
+    }
+    
+   
+    
+    #mainNavbar {
+        padding: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #2a607c;
+        color: #ffffff;
+     }
+
+     #mainNavbar div {
+       
+        float: right;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    
+ }
